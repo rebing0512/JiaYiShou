@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/history/history",
+    "pages/me/me",
+    "pages/repai/repai",
+    "pages/yuzhan/yuzhan",
+    "pages/exchange/exchange"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "加一手",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#303030",
+    "selectedColor": "#eab634",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/bar/index.png",
+        "selectedIconPath": "/images/bar/index1.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "/images/bar/lishi.png",
+        "selectedIconPath": "/images/bar/lishi1.png"
+      },
+      {
+        "pagePath": "pages/exchange/exchange",
+        "text": "兑换",
+        "iconPath": "/images/bar/duihuan.png",
+        "selectedIconPath": "/images/bar/duihuan1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/images/bar/me.png",
+        "selectedIconPath": "/images/bar/me1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

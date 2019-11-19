@@ -1,0 +1,126 @@
+/**index.wxss**/
+.b{
+  background-color:#ebe9ea;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #ffffff;
+}
+.nav-item{
+  width: 25%;
+  font-size: 13px;
+  padding-top:10px;
+  padding-bottom:20px; 
+}
+.haibao{
+  text-align: center;
+  width: 100%;
+}
+.select{
+    width: 50%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #080808;
+    font-size: 13px;
+    border-bottom: 1px solid #610307;
+}
+.normal{
+    width: 50%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #080808;
+    font-size: 13px;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+}
+.bk{
+  background-color: #ebe7e8;
+}
+.line{
+  border-bottom: 1px solid #b1afb0;
+}
+.list{
+padding: 10px 10px 15px;
+width: 100%;
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 50px;
+}
+.v{
+margin-right: 10px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px #ddd;
+overflow: hidden;
+margin-bottom: 10px;
+  }
+.v:nth-child(2n) {
+margin-right: 0;
+}
+.main-tab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.main-tab .tab-item{
+  width: 50%;
+  flex: 1;
+  padding: 15px 0;
+  position: relative;
+}
+.main-tab::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: #e0e1e2;
+}
+.tab-title{
+  font-size: 15px;
+  color: #7f7f7f;
+}
+.main-tab .tab-item.active .tab-title{
+  color: #000;
+}
+.main-tab .tab-item.active::after{
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  height: 1px;
+  width: 80px;
+  margin-left: -40px;
+  background-color: #ba9f71;
+  z-index: 22;
+}
+.sub-tab{
+  display: flex;
+  padding: 15px 0 0 0;
+  margin-bottom: 20px;
+}
+.sub-tab-item{
+  flex: 1;
+  text-align: center;
+}
+.sub-tab-item .title{
+  display: inline-block;
+  padding: 4px 20px;
+  background-color: #dfdfe0;
+  color: #696969;
+  border-radius: 20px;
+}
+.sub-tab-item.active .title{
+  background-color: #dfd6c7;
+  color: #94733e;
+}
